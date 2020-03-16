@@ -66,6 +66,11 @@ tsc --init
 // tsconfig.json
 
 {
+  "compilerOptions" : {}, // tsc 명령 옵션
+  "include" : [], // 대상 파일 목록
+}
+
+{
   "compilerOptions": {
     /* Basic Options */
     // "incremental": true,                   /* Enable incremental compilation */
